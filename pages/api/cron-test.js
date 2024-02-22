@@ -1,7 +1,7 @@
 export default function handler(req, res){
 
     try{
-        console.log(request.rawHeaders);
+        console.log(req.rawHeaders);
         console.log(process.env.CRON_SECRET);
     }catch(err){
         console.log(err);
