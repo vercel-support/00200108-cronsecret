@@ -1,17 +1,7 @@
 export default function handler(req, res){
-
-    try{
-        console.log(req.rawHeaders);
-        console.log(process.env.CRON_SECRET);
-    }catch(err){
-        console.log(err);
-    }
-
+    console.log(req.rawHeaders);
     console.log(req.headers['authorization']);
 
-
-    console.log(req.headers);
-
-
+    // console.log(req.headers);
     res.status(200).send('');
 }
