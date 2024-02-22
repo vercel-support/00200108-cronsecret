@@ -1,8 +1,6 @@
 export default function handler(req, res){
 
     try{
-        const authHeader = req.headers.get('authorization');
-        console.log(authHeader);
         console.log(request.rawHeaders);
         console.log(process.env.CRON_SECRET);
     }catch(err){
