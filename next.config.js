@@ -12,11 +12,11 @@ const nextConfig = {
 				has: [
 					{
 						type: "host",
-						value: "www.revisionboost.com",
+						value: "www.cronsecret.vercel.app",
 					},
 				],
 				permanent: true,
-				destination: "https://revisionboost.com",
+				destination: "https://cronsecret.vercel.app",
 			},
 		];
 	},
